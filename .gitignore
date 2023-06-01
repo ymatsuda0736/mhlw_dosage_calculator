@@ -1,0 +1,31 @@
+*prescription/uploads/
+*.pyc
+*/__pycache__
+
+
+# django
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+docker/back/django_project/db.sqlite3
+temporary
+
+# need hand set files
+*.env
+box_secret.json
+
+#algo
+/docker/back/django_project/service/ocr/ym_development
+
+# db
+docker/db/data
+
+# storage
+docker/storage/data
+.minio.sys
+
+# mac
+.DS_Store
+
+# vscode
+*.history*
